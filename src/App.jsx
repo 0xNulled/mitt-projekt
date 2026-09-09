@@ -6,14 +6,13 @@ import './App.css'
 //import OnClick from './components/OnClick'
 //import ToggleSwitch from './components/ToggleSwitch'
 //import TaskList from './components/TaskList'
-import StatusBadge from './components/StatusBadge'
+//import StatusBadge from './components/StatusBadge'
+import ProgressBar from './components/ProgressBar'
 
 function App() {
   return (
     <>
-      <StatusBadge status="active" />  
-      <StatusBadge status="pending" />
-      <StatusBadge status="inactive" />
+      <ProgressBar percent={65} />
     </>
   )
 }
