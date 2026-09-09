@@ -7,7 +7,10 @@ Kort beskrivning av vad projektet är och vad det gör.
 
 ## Komma igång
 
-```bashnpm installnpm run dev```
+```bash
+npm install
+npm run dev
+```
 
 ## Struktur
 
