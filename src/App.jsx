@@ -8,12 +8,13 @@ import './App.css'
 //import TaskList from './components/TaskList'
 //import StatusBadge from './components/StatusBadge'
 //import ProgressBar from './components/ProgressBar'
-import Avatar from './components/Avatar'
+//import Avatar from './components/Avatar'
+import StarRating from './components/StarRating'
 
 function App() {
   return (
     <>
-      <Avatar name="Sarah Svenson" size="72"/>
+      <StarRating rating={3} />
     </>
   )
 }
