@@ -5,17 +5,15 @@ import './App.css'
 //import Footer from './components/Footer'
 //import OnClick from './components/OnClick'
 //import ToggleSwitch from './components/ToggleSwitch'
-import TaskList from './components/TaskList'
+//import TaskList from './components/TaskList'
+import StatusBadge from './components/StatusBadge'
 
 function App() {
   return (
     <>
-      <TaskList
-        tasks={[
-          { id: 1, text: "Handla mat", done: true },
-          { id: 2, text: "Städa", done: false},
-        ]}
-      />  
+      <StatusBadge status="active" />  
+      <StatusBadge status="pending" />
+      <StatusBadge status="inactive" />
     </>
   )
 }
