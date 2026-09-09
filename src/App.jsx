@@ -7,12 +7,13 @@ import './App.css'
 //import ToggleSwitch from './components/ToggleSwitch'
 //import TaskList from './components/TaskList'
 //import StatusBadge from './components/StatusBadge'
-import ProgressBar from './components/ProgressBar'
+//import ProgressBar from './components/ProgressBar'
+import Avatar from './components/Avatar'
 
 function App() {
   return (
     <>
-      <ProgressBar percent={65} />
+      <Avatar name="Sarah Svenson" size="72"/>
     </>
   )
 }
