@@ -1,16 +1,19 @@
-# React + Vite
+# Mitt projekt
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Kort beskrivning av vad projektet är och vad det gör.
 
-Currently, two official plugins are available:
+## Teknik
+- React (Vite)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Komma igång
 
-## React Compiler
+```bashnpm installnpm run dev```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Struktur
 
-## Expanding the ESLint configuration
+Kort beskrivning av mappstrukturen, till exempel att src/components innehåller applikationens komponenter.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Status
+
+Beskriv vad som är klart och vad som återstår att göra.
+Göra README (gör andra uppgifter istället som lär mig react istället för att skriva README's)
